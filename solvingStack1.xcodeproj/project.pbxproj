@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F82CBB51D0A382700DF00D1 /* NSTimerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F82CBB41D0A382700DF00D1 /* NSTimerExtension.swift */; };
+		1F97FA8C1D09A6F5005D51F3 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F97FA8B1D09A6F5005D51F3 /* PersonModel.swift */; };
+		1F97FA8E1D09AAE3005D51F3 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F97FA8D1D09AAE3005D51F3 /* StringExtension.swift */; };
+		1F97FA901D09AB44005D51F3 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F97FA8F1D09AB44005D51F3 /* Helpers.swift */; };
+		1F97FA951D09E369005D51F3 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F97FA941D09E369005D51F3 /* UIKitExtension.swift */; };
 		4311BC011D091AB100CC21C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311BC001D091AB100CC21C2 /* AppDelegate.swift */; };
 		4311BC031D091AB100CC21C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311BC021D091AB100CC21C2 /* ViewController.swift */; };
 		4311BC061D091AB100CC21C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4311BC041D091AB100CC21C2 /* Main.storyboard */; };
@@ -14,6 +19,11 @@
 		4311BC0B1D091AB100CC21C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4311BC091D091AB100CC21C2 /* LaunchScreen.storyboard */; };
 		4311BC161D091AB100CC21C2 /* solvingStack1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311BC151D091AB100CC21C2 /* solvingStack1Tests.swift */; };
 		4311BC211D091AB100CC21C2 /* solvingStack1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311BC201D091AB100CC21C2 /* solvingStack1UITests.swift */; };
+		4311BC2F1D091AD300CC21C2 /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311BC2E1D091AD300CC21C2 /* PersonViewModel.swift */; };
+		4311BC351D09264A00CC21C2 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4311BC331D09264A00CC21C2 /* ReactiveCocoa.framework */; };
+		4311BC361D09264A00CC21C2 /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4311BC331D09264A00CC21C2 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4311BC371D09264A00CC21C2 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4311BC341D09264A00CC21C2 /* Result.framework */; };
+		4311BC381D09264A00CC21C2 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4311BC341D09264A00CC21C2 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +43,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4311BC391D09264A00CC21C2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4311BC361D09264A00CC21C2 /* ReactiveCocoa.framework in Embed Frameworks */,
+				4311BC381D09264A00CC21C2 /* Result.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1F82CBB41D0A382700DF00D1 /* NSTimerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSTimerExtension.swift; sourceTree = "<group>"; };
+		1F97FA8B1D09A6F5005D51F3 /* PersonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		1F97FA8D1D09AAE3005D51F3 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		1F97FA8F1D09AB44005D51F3 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		1F97FA941D09E369005D51F3 /* UIKitExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
 		4311BBFD1D091AB100CC21C2 /* solvingStack1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = solvingStack1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4311BC001D091AB100CC21C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4311BC021D091AB100CC21C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +77,9 @@
 		4311BC1C1D091AB100CC21C2 /* solvingStack1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = solvingStack1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4311BC201D091AB100CC21C2 /* solvingStack1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solvingStack1UITests.swift; sourceTree = "<group>"; };
 		4311BC221D091AB100CC21C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4311BC2E1D091AD300CC21C2 /* PersonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		4311BC331D09264A00CC21C2 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReactiveCocoa.framework; sourceTree = "<group>"; };
+		4311BC341D09264A00CC21C2 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4311BC351D09264A00CC21C2 /* ReactiveCocoa.framework in Frameworks */,
+				4311BC371D09264A00CC21C2 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +109,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F97FA911D09AC03005D51F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4311BC021D091AB100CC21C2 /* ViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1F97FA921D09AC16005D51F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F97FA8B1D09A6F5005D51F3 /* PersonModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1F97FA931D09AC27005D51F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4311BC2E1D091AD300CC21C2 /* PersonViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		4311BBF41D091AB000CC21C2 = {
 			isa = PBXGroup;
 			children = (
+				4311BC331D09264A00CC21C2 /* ReactiveCocoa.framework */,
+				4311BC341D09264A00CC21C2 /* Result.framework */,
 				4311BBFF1D091AB100CC21C2 /* solvingStack1 */,
 				4311BC141D091AB100CC21C2 /* solvingStack1Tests */,
 				4311BC1F1D091AB100CC21C2 /* solvingStack1UITests */,
@@ -97,12 +158,18 @@
 		4311BBFF1D091AB100CC21C2 /* solvingStack1 */ = {
 			isa = PBXGroup;
 			children = (
+				1F97FA921D09AC16005D51F3 /* Model */,
+				1F97FA911D09AC03005D51F3 /* View */,
+				1F97FA931D09AC27005D51F3 /* ViewModel */,
 				4311BC001D091AB100CC21C2 /* AppDelegate.swift */,
-				4311BC021D091AB100CC21C2 /* ViewController.swift */,
 				4311BC041D091AB100CC21C2 /* Main.storyboard */,
 				4311BC071D091AB100CC21C2 /* Assets.xcassets */,
 				4311BC091D091AB100CC21C2 /* LaunchScreen.storyboard */,
 				4311BC0C1D091AB100CC21C2 /* Info.plist */,
+				1F97FA8D1D09AAE3005D51F3 /* StringExtension.swift */,
+				1F82CBB41D0A382700DF00D1 /* NSTimerExtension.swift */,
+				1F97FA8F1D09AB44005D51F3 /* Helpers.swift */,
+				1F97FA941D09E369005D51F3 /* UIKitExtension.swift */,
 			);
 			path = solvingStack1;
 			sourceTree = "<group>";
@@ -135,6 +202,7 @@
 				4311BBF91D091AB000CC21C2 /* Sources */,
 				4311BBFA1D091AB000CC21C2 /* Frameworks */,
 				4311BBFB1D091AB000CC21C2 /* Resources */,
+				4311BC391D09264A00CC21C2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,7 +324,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F82CBB51D0A382700DF00D1 /* NSTimerExtension.swift in Sources */,
 				4311BC031D091AB100CC21C2 /* ViewController.swift in Sources */,
+				1F97FA901D09AB44005D51F3 /* Helpers.swift in Sources */,
+				4311BC2F1D091AD300CC21C2 /* PersonViewModel.swift in Sources */,
+				1F97FA8E1D09AAE3005D51F3 /* StringExtension.swift in Sources */,
+				1F97FA951D09E369005D51F3 /* UIKitExtension.swift in Sources */,
+				1F97FA8C1D09A6F5005D51F3 /* PersonModel.swift in Sources */,
 				4311BC011D091AB100CC21C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,10 +475,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = solvingStack1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dari.dari.solvingStack1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,6 +492,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = solvingStack1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dari.dari.solvingStack1;
@@ -484,6 +569,7 @@
 				4311BC271D091AB100CC21C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4311BC281D091AB100CC21C2 /* Build configuration list for PBXNativeTarget "solvingStack1Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +578,7 @@
 				4311BC2A1D091AB100CC21C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4311BC2B1D091AB100CC21C2 /* Build configuration list for PBXNativeTarget "solvingStack1UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +587,7 @@
 				4311BC2D1D091AB100CC21C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
